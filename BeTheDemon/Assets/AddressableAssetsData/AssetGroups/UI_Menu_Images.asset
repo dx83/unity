@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI_Menu_Images
+  m_EditorClassIdentifier: 
+  m_GroupName: UI_Menu_Images
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 727fc8f4ee3cffd41a4c4e31a0fd166c
+  m_SerializeEntries:
+  - m_GUID: 078e40cb0b2ce554194b039d3bbb4b96
+    m_Address: Assets/Images/Atlas/Game_Icons.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 297402bc2b59e814a9e448f4a64f4ad4
+    m_Address: Assets/Images/Atlas/Image_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a0f4329edfe96474193d0e9db335a7c9, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2cdd1f554b4c85b45a7353a3eb49cc95, type: 2}
+    - {fileID: 11400000, guid: aae1d15e6cae8ba418fb589936629c4e, type: 2}

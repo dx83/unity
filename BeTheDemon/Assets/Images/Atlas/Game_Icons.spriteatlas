@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Game_Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b1f64f0c58b1cec49aa4f0b47049ae5f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 649d2710c24ff1e41a778acbf8c2d1cf, type: 3}
+  - {fileID: 21300000, guid: 529f0e1001c9bef4da0335342a6612d9, type: 3}
+  - {fileID: 21300000, guid: b8659e408774c8f468ba214d6625ff2b, type: 3}
+  - {fileID: 21300000, guid: 527d44113145f064aa360c4ef2f7d147, type: 3}
+  - {fileID: 21300000, guid: 1e5163d2e042d2e43b93c23684243267, type: 3}
+  - {fileID: 21300000, guid: 5306eee367862a44fa1cf01df416b561, type: 3}
+  - {fileID: 21300000, guid: 5bb2fb443de11c444b87b94b560cb009, type: 3}
+  - {fileID: 21300000, guid: d33ad165d0050f44ba453059d08fc4be, type: 3}
+  - {fileID: 21300000, guid: 9a981086e68555a448b7059afea01c67, type: 3}
+  - {fileID: 21300000, guid: d109e3473e787d44a8beaef2c6de5bab, type: 3}
+  - {fileID: 21300000, guid: c35f457768283964c9fcba1c5e62a8e7, type: 3}
+  - {fileID: 21300000, guid: cd3d5308ff619f6468cbd52d0fc9cbdd, type: 3}
+  - {fileID: 21300000, guid: a4753448c36dce94a99b08f6cd87b4a0, type: 3}
+  - {fileID: 21300000, guid: dfb9cb68615ba8b468f4b51bb2e289d0, type: 3}
+  - {fileID: 21300000, guid: 98e3e3f8cbc550843b4087bfae774735, type: 3}
+  - {fileID: 21300000, guid: 403fdc09b9513b64889c3c272a7b3ffb, type: 3}
+  - {fileID: 21300000, guid: e2e80b592e87b9b448bc96f335b280e4, type: 3}
+  - {fileID: 21300000, guid: f24a5a892033b0949993b97aee639072, type: 3}
+  - {fileID: 21300000, guid: 629b929afc214ca45974b82d5222ee4d, type: 3}
+  - {fileID: 21300000, guid: ca1a71fa5a60d424f996116732a39e9c, type: 3}
+  - {fileID: 21300000, guid: 24d1ce0b74d759e4f8e69f49282f7774, type: 3}
+  - {fileID: 21300000, guid: b565fdbbc9998374f9599137ff474cc1, type: 3}
+  - {fileID: 21300000, guid: e24ea5cb0db7aa441b371110b42562fa, type: 3}
+  - {fileID: 21300000, guid: d7fae21ce4998c647a1519bd560d9d81, type: 3}
+  - {fileID: 21300000, guid: defb41ccb7223e749b233b288d1ea83b, type: 3}
+  - {fileID: 21300000, guid: e9157d2df2e88d04cb92be7db6a9ebbf, type: 3}
+  - {fileID: 21300000, guid: 797ae68d298a3a144a4bf022e559b973, type: 3}
+  - {fileID: 21300000, guid: 67206dedc84c7b440a2ba980d58a0851, type: 3}
+  - {fileID: 21300000, guid: 9505448f756489645af2416b8db005c0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon_tab_shop
+  - icon_menu_market
+  - icon_tab_menu
+  - hero4
+  - hero0
+  - icon_menu_mail
+  - icon_menu_sleep
+  - hero5
+  - hero1
+  - icon_menu_mission
+  - Icon_advance_damage
+  - icon_tab_item
+  - icon_menu_attend
+  - Icon_advance_atk_speed
+  - icon_menu_ranking
+  - hero3
+  - icon_tab_special
+  - icon_locked
+  - Icon_advance_accuracy
+  - icon_menu_option
+  - hero2
+  - icon_menu_event
+  - Icon_advance_move_speed
+  - icon_tab_skill
+  - icon_menu_shield
+  - Icon_advance_dodge
+  - Icon_advance_max_dmg
+  - icon_tab_character
+  - icon_menu_cafe
+  m_RenderDataMap: {}
+  m_Tag: Game_Icons
+  m_IsVariant: 0
