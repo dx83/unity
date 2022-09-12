@@ -197,8 +197,7 @@ MonoBehaviour:
     overrideWith: {fileID: 7400000, guid: 51eec8c873c1fc143bee613ff37683cc, type: 2}
   - clipNamed: Medusa_Death
     overrideWith: {fileID: 7400000, guid: 2dbbe0f3aa8040d48867e4a6f9a6017a, type: 2}
-  animCont: {fileID: 9100000, guid: 3ba7e1b30cbe1ed4181360d42f51ac27, type: 2}
-  sprite: {fileID: 21300000, guid: e92ab51080ec76243bb5157cf05a8de9, type: 3}
+  animCont: {fileID: 22100000, guid: da8577706faceff4781c701907dad3a6, type: 2}
 --- !u!1 &413436240
 GameObject:
   m_ObjectHideFlags: 0

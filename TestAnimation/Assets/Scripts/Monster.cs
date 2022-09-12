@@ -13,25 +13,38 @@ public class Monster : ControlCharacterBase
 
     void Start()
     {
-        hashAni = new int[4];
-        hashAni[0] = Animator.StringToHash("Lizard_Idle");
-        hashAni[1] = Animator.StringToHash("Lizard_Attack");
-        hashAni[2] = Animator.StringToHash("Lizard_Hurt");
-        hashAni[3] = Animator.StringToHash("Lizard_Death");
+        //Debug.Log(this.name);
+        //hashAni = new int[4];
+        //hashAni[0] = Animator.StringToHash("Lizard_Idle");
+        //hashAni[1] = Animator.StringToHash("Lizard_Attack");
+        //hashAni[2] = Animator.StringToHash("Lizard_Hurt");
+        //hashAni[3] = Animator.StringToHash("Lizard_Death");
 
-        delayTime = 3.0f;
+        //delayTime = 3.0f;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            hashAni[0] = Animator.StringToHash("Medusa_Idle");
-            hashAni[1] = Animator.StringToHash("Medusa_Attack");
-            hashAni[2] = Animator.StringToHash("Medusa_Hurt");
-            hashAni[3] = Animator.StringToHash("Medusa_Death");
-        }
+        //if (Input.GetKeyDown(KeyCode.W))
+        //{
+        //    hashAni[0] = Animator.StringToHash($"{this.name}_Idle");
+        //    hashAni[1] = Animator.StringToHash($"{this.name}_Attack");
+        //    hashAni[2] = Animator.StringToHash($"{this.name}_Hurt");
+        //    hashAni[3] = Animator.StringToHash($"{this.name}_Death");
+        //}
         StateCheck();
+    }
+
+    public void InserthashAniFunc()//이니셜라이즈로 완정 수정
+    {
+        hashAni = new int[4];
+        hashAni[0] = Animator.StringToHash("Idle");
+        hashAni[1] = Animator.StringToHash("Attack");
+        hashAni[2] = Animator.StringToHash("Hurt");
+        hashAni[3] = Animator.StringToHash("Death");
+
+        delayTime = 3.0f;
+        isCollided = false;
     }
 
 
