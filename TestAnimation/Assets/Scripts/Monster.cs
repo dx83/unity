@@ -11,31 +11,12 @@ public class Monster : ControlCharacterBase
 
     bool isCollided;
 
-    void Start()
-    {
-        //Debug.Log(this.name);
-        //hashAni = new int[4];
-        //hashAni[0] = Animator.StringToHash("Lizard_Idle");
-        //hashAni[1] = Animator.StringToHash("Lizard_Attack");
-        //hashAni[2] = Animator.StringToHash("Lizard_Hurt");
-        //hashAni[3] = Animator.StringToHash("Lizard_Death");
-
-        //delayTime = 3.0f;
-    }
-
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.W))
-        //{
-        //    hashAni[0] = Animator.StringToHash($"{this.name}_Idle");
-        //    hashAni[1] = Animator.StringToHash($"{this.name}_Attack");
-        //    hashAni[2] = Animator.StringToHash($"{this.name}_Hurt");
-        //    hashAni[3] = Animator.StringToHash($"{this.name}_Death");
-        //}
         StateCheck();
     }
 
-    public void InserthashAniFunc()//이니셜라이즈로 완정 수정
+    public void MonsterInitialize()
     {
         hashAni = new int[4];
         hashAni[0] = Animator.StringToHash("Idle");

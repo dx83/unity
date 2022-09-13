@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 207431149}
   - component: {fileID: 207431150}
   - component: {fileID: 207431151}
+  - component: {fileID: 207431152}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -180,24 +181,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9409f038bb1104543923cfb9c538e3ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipOverrides:
-  - clipNamed: Lizard_Idle
-    overrideWith: {fileID: 7400000, guid: 201cb42afa72ea244aea1929ac4b85b9, type: 2}
-  - clipNamed: Lizard_Attack
-    overrideWith: {fileID: 7400000, guid: 78aad3d7abbf10742b82c52a6651fff7, type: 2}
-  - clipNamed: Lizard_Hurt
-    overrideWith: {fileID: 7400000, guid: b41d0348390f0b146809b9e665e0289c, type: 2}
-  - clipNamed: Lizard_Death
-    overrideWith: {fileID: 7400000, guid: 157f600dead9ff84da6fab4b3ad47447, type: 2}
-  - clipNamed: Medusa_Idle
-    overrideWith: {fileID: 7400000, guid: ef15c4ec0facb9540a93d3e1b3054c43, type: 2}
-  - clipNamed: Medusa_Attack
-    overrideWith: {fileID: 7400000, guid: d7f1ab7f3d9fb5149b567c26979043c1, type: 2}
-  - clipNamed: Medusa_Hurt
-    overrideWith: {fileID: 7400000, guid: 51eec8c873c1fc143bee613ff37683cc, type: 2}
-  - clipNamed: Medusa_Death
-    overrideWith: {fileID: 7400000, guid: 2dbbe0f3aa8040d48867e4a6f9a6017a, type: 2}
   animCont: {fileID: 22100000, guid: da8577706faceff4781c701907dad3a6, type: 2}
+--- !u!114 &207431152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207431148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c8dd4c59269e1438ebf80694c0c76a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &413436240
 GameObject:
   m_ObjectHideFlags: 0
