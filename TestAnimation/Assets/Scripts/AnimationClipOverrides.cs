@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 
+// MonsterCreationManager ·Î °³Äª ÇÊ¿ä
 public class AnimationClipOverrides : MonoBehaviour
 {
     [SerializeField] AnimatorOverrideController animCont;

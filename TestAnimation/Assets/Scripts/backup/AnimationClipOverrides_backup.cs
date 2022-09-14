@@ -39,7 +39,7 @@ public class AnimationClipOverrides_backup : MonoBehaviour
         Init(anim);
 
         Monster ms = monster.AddComponent<Monster>();
-        ms.InserthashAniFunc();//여기서 이니셜라이즈해야할듯
+        ms.MonsterInitialize();//여기서 이니셜라이즈해야할듯
         
         SpriteRenderer sr = monster.AddComponent<SpriteRenderer>();
         sr.flipX = true;

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 
 
-public class AnimationClipLoader : MonoBehaviour
+public class AnimationClipLoader
 {
     private static Dictionary<string, Dictionary<string, AnimationClip>> animationClips = 
         new Dictionary<string, Dictionary<string, AnimationClip>>();

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Monster : ControlCharacterBase
 {
     public enum MonsterAni { Idle = 0, Attack, Hurt, Death }
