@@ -43,6 +43,7 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 696dae30965b5ea4cacb47480e87b41a, type: 2}
   - {fileID: 11400000, guid: 4871c51c7b2628f4b917b430092379cc, type: 2}
+  - {fileID: 11400000, guid: 83dad672236568744aa185883cfdc908, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -84,6 +85,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - AnimationCLip
+    - AnimationClip
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: c380e663a21a2754797f00754ff114ab, type: 2}

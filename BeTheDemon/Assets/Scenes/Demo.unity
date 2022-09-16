@@ -1974,7 +1974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &475648490
 Transform:
   m_ObjectHideFlags: 0
@@ -2259,9 +2259,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.00062423944
     width: 1
-    height: 1
+    height: 0.9987515
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -2309,7 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e18e66c7dbc3fb478d9cf68e9ce788f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usingH_Pillar: 0
+  usingH_Pillar: 1
   scalers:
   - {fileID: 1024200205}
 --- !u!1 &521528777
@@ -5195,7 +5195,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 720, y: 1280}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -10165,6 +10165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f33db5a9bd44d4ea4de2018a2653a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animCont: {fileID: 22100000, guid: da8577706faceff4781c701907dad3a6, type: 2}
+  colorShaderMat: {fileID: 2100000, guid: 6f4064f88d80f194ba90942f0fedef2a, type: 2}
 --- !u!1 &2112685714
 GameObject:
   m_ObjectHideFlags: 0

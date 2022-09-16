@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Medusa_Hurt
+  m_Name: Dragon_Idle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 1569d452c4c62934ca5408de50dc6237, type: 3}
+      value: {fileID: 21300000, guid: 6146fd35431ede64cb5d4dc1011b2f7a, type: 3}
+    - time: 0.033333335
+      value: {fileID: 21300000, guid: 20b736e49e8107e4c89d4daacb5cbb23, type: 3}
     - time: 0.06666667
-      value: {fileID: 21300000, guid: 2073beb3ce03c8d468e9e511fd7c754b, type: 3}
+      value: {fileID: 21300000, guid: 21aab7f356429c6408b4de179be551d4, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +44,9 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 1569d452c4c62934ca5408de50dc6237, type: 3}
-    - {fileID: 21300000, guid: 2073beb3ce03c8d468e9e511fd7c754b, type: 3}
+    - {fileID: 21300000, guid: 6146fd35431ede64cb5d4dc1011b2f7a, type: 3}
+    - {fileID: 21300000, guid: 20b736e49e8107e4c89d4daacb5cbb23, type: 3}
+    - {fileID: 21300000, guid: 21aab7f356429c6408b4de179be551d4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ControlCharacterMonster : ControlCharacterBase
@@ -15,19 +14,20 @@ public class ControlCharacterMonster : ControlCharacterBase
     [HideInInspector] Material defaultMat;
 
 
-    void Start()
+    public void MonsterInitialize()
     {
         injectionObj.Inject(this);
 
         hashAni = new int[4];
-        hashAni[0] = Animator.StringToHash("Lizard_Idle");
-        hashAni[1] = Animator.StringToHash("Lizard_Attack");
-        hashAni[2] = Animator.StringToHash("Lizard_Hurt");
-        hashAni[3] = Animator.StringToHash("Lizard_Death");
+        hashAni[0] = Animator.StringToHash("Idle");
+        hashAni[1] = Animator.StringToHash("Attack");
+        hashAni[2] = Animator.StringToHash("Hurt");
+        hashAni[3] = Animator.StringToHash("Death");
 
         defaultMat = this.Sprite.sharedMaterial;
 
         delayTime = 3.0f;
+        isCollided = false;
     }
 
     void Update()
