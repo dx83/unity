@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI_Menu_Images
+  m_EditorClassIdentifier: 
+  m_GroupName: UI_Menu_Images
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c4ab72baec5fd4841849848677ba512e
+  m_SerializeEntries:
+  - m_GUID: 297402bc2b59e814a9e448f4a64f4ad4
+    m_Address: Assets/Images/Atlas/Image_Atlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Atlas
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c3c702d77da439a43bf8ad029d46fd8a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b695bf421894f3b4ca1b35621a5eb816, type: 2}
+    - {fileID: 11400000, guid: 3b0456dbce2342347bb301dcded500e5, type: 2}
