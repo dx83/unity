@@ -246,6 +246,9 @@ public class CreateAttributeItemInCharTab
         text.font = UIStaticFunc.sebangGothicBoldFont;
         text.fontSize = 20;
         text.supportRichText = true;
+        text.resizeTextForBestFit = true;
+        text.resizeTextMinSize = 1;
+        text.resizeTextMaxSize = 40;
         text.alignment = TextAnchor.MiddleCenter;
         text.color = Color.white;
     }
