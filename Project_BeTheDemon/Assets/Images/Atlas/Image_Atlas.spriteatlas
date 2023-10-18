@@ -120,6 +120,7 @@ SpriteAtlas:
     - 793173ee15d79fe4f964f07d7e1a5fea: 21300000
     - 0e58d9ee6ff3fd941ab315d987cb9c52: 21300000
     - 5734fb2f5e7e436468b56c460bfdbac3: 21300000
+    - ae0efaaf0bbcd3c409c2610f0046eb8d: 21300000
     - 284498bf909482a42b02a43c5aaa164c: 21300000
     - 46b067cf82a82f043acae3ba9e3f30f7: 21300000
   m_MasterAtlas: {fileID: 0}
@@ -207,6 +208,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 793173ee15d79fe4f964f07d7e1a5fea, type: 3}
   - {fileID: 21300000, guid: 0e58d9ee6ff3fd941ab315d987cb9c52, type: 3}
   - {fileID: 21300000, guid: 5734fb2f5e7e436468b56c460bfdbac3, type: 3}
+  - {fileID: 21300000, guid: ae0efaaf0bbcd3c409c2610f0046eb8d, type: 3}
   - {fileID: 21300000, guid: 284498bf909482a42b02a43c5aaa164c, type: 3}
   - {fileID: 21300000, guid: 46b067cf82a82f043acae3ba9e3f30f7, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -293,6 +295,7 @@ SpriteAtlas:
   - Icon_stat_double_attack_critical_rate
   - panel_vertical
   - hero2
+  - Button_Honeycomb_White_60px
   - WindowStroke
   - Division_line
   m_RenderDataMap: {}

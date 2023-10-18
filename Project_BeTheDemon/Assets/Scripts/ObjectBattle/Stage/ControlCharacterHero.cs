@@ -27,7 +27,7 @@ public class ControlCharacterHero : ControlCharacterBase
         isIdle = false;
 
         pd.inGameState = InGameState.None;
-        pd.changeState = InGameState.Start;
+        pd.changeState = InGameState.None;
     }
 
     void Update()

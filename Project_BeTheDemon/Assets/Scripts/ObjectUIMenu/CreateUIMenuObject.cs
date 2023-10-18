@@ -9,7 +9,7 @@ public class CreateUIMenuObject
 {
     // LowerUIScreen
     RenderTexture renderTexture;
-    GameObject gameCanvas;
+    public GameObject gameCanvas;
     GameObject lowerMenuBase;
     GameObject lowerContents;
 

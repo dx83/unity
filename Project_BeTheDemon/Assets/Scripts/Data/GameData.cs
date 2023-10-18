@@ -64,6 +64,18 @@ public class GameData
     int DataCodeToIndex(string code) => dataList.Where(d => d.Code == code).First().Index;
 
 
+    public LoadingSceneDataStrings InsertDataLoadingScene()
+    {
+        ExcelDataFunc(0);
+        LoadingSceneDataStrings datas = new LoadingSceneDataStrings();
+
+        datas.loading = StringByLang(DataCodeToIndex("cbload"), 0);
+        datas.start = StringByLang(DataCodeToIndex("cbgstart"), 0);
+
+        return datas;
+    }
+
+
     public QuitDataStrings InsertDataInQuitWindow()
     {
         ExcelDataFunc(0);

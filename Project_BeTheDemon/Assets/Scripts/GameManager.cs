@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         userData.userId = "유저아이디";
         userData.characterLevel = 819;
         userData.expPercent = 95.1111f;
-        userData.statsPoint = 30;
+        userData.statsPoint = 999999;
         userData.beersPoint = 999999;//MAX 999999
         userData.currentAscent = 18;
         
@@ -61,11 +61,14 @@ public class GameManager : MonoBehaviour
     {
         CreateUIMenuObject uiMenuObj = new CreateUIMenuObject();
         uiMenuObj.CreateLowerUIScreen();
-        
+
+        LoadingScene loadingScene = new LoadingScene();
+        loadingScene.Create(uiMenuObj.gameCanvas.transform);
+        StartCoroutine(loadingScene.LoadingCoroutine());
+
         CreateBattleObject battleObj = new CreateBattleObject();
         battleObj.CreateBattleScreen();
         battleObj.InsertRenderTextureToCamera(uiMenuObj.RenderTexture());
-
     }
 
     void Update()
