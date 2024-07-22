@@ -3,7 +3,7 @@
   - Addressables
 
 - 설치 라이브러리
-  - Newtonsoft.Json        : 데이터 암호화
+  - Newtonsoft.Json        : Json 데이터로 변환
   - ClosedXML              : 엑셀 파일 읽기
   - DocumentFormat.OpenXml : 엑셀 파일 읽기
 
