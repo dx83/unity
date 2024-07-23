@@ -6,7 +6,7 @@ SpriteAtlas : Addressables의 스프라이트아틀라스를 이용한 이미지
   - CameraResolution : 해상도 변화에 따라 실시간으로 비율 고정시켜주는 코드 (화면에서 남는 부분은 검은 기둥이 생기도록 함)
 
 - 자가 코드
-  - FileConverter : 엑셀파일을 유니티로 읽은 뒤 Json으로 변환하고 다시 byte로 인코딩하고 base64로 난독화된 txt 파일로 바꾸는 코드
+  - FileConverter : 게임 리소스에 해당되는 엑셀 파일을 난독화시켜 게임에 첨부할 데이타 파일 생성하는 기능
 
 
 
