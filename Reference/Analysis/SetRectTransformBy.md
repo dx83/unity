@@ -60,8 +60,6 @@ public static RectTransform SetRectTransformByPreset(GameObject gameObject,
 - Stretch All : anchoredPos 은 건들지 않아도 된다.
     - Right 와 Top 은 안쪽으로 들여보내는 경우 음수(-)여야 한다.
 - Horizontal Stretch : PosY 와 Heigth가 상쇄되므로 PosY는 anchoredPos 으로 지정해야 한다.
-    - 
-- 
 <br>
 
 ▼ 수평 Stretch
