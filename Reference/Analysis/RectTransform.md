@@ -8,14 +8,13 @@ public static RectTransform SetRectTransformByPreset(GameObject gameObject,
     AnchorsPreset anchors, float width, float height, float posX, float posY,
     Vector2 pivot, Vector3 scale)
 ```
-<br>
 
 |변수|인스펙터창|설명|
 |---|---|---|
 |anchors|anchorMin<br>anchorMax|앵커 설정|
 |pivot|Pivot X,Y|오브젝트의 기준 좌표|
 |sizeDelta|Width, Height|오브젝트의 가로,세로 크기|
-|anchoredPos|Pos X, Pos Y|부모 오브젝트 내에서의 좌표|
+|posX, posY<br>(anchoredPos)|Pos X, Pos Y|부모 오브젝트 내에서의 좌표|
 |scale|Scale X,Y,Z|오브젝트의 크기를 해당 수치만큼 곱함|
 <br>
 
@@ -31,3 +30,59 @@ public static RectTransform SetRectTransformByPreset(GameObject gameObject,
 - min, max의 값이 동일
 <br>
 
+## 스트레치가 적용되는 오브젝트에 사용
+||Stretch All|Horizontal Stretch|Vertical Stretch|
+|---|---|---|---|
+|offsetMin|Left, Bottom|Left, PosY|PosX, Bottom|
+|offsetMax|Right, Top|Right, Height|Width, Top|
+- Stretch All : anchoredPos 은 건들지 않아도 된다.
+    - Right 와 Top 은 안쪽으로 들여보내는 경우 음수(-)여야 한다.
+- Horizontal Stretch : PosY 와 Heigth가 상쇄되므로 PosY는 anchoredPos 으로 지정해야 한다.
+<br>
+
+```csharp
+public static RectTransform SetRectTransformByStretchAll(GameObject gameObject,
+    float left, float right, float top, float bottom,
+    Vector2 pivot, Vector2 anchoredPos, Vector3 scale)
+```
+
+|Stretch All|
+|---|
+|anchorMin (0, 0)<br>anchorMax (1, 1)|
+<br>
+
+```csharp
+public static RectTransform SetRectTransformByStretchHor(GameObject gameObject,
+    StretchHor stretch, float left, float right, float posY, float height,
+    Vector2 pivot, Vector3 scale)
+```
+
+|Horizontal Stretch||
+|---|---|
+|Top|anchorMin (0, 1)<br>anchorMax (1, 1)|
+|Middle|anchorMin (0, 0.5f)<br>anchorMax (1, 0.5f)|
+|Bottom|anchorMin (0, 0)<br>anchorMax (1, 0)|
+<br>
+
+```csharp
+public static RectTransform SetRectTransformByStretchVer(GameObject gameObject,
+    StretchVer stretch, float top, float bottom, float posX, float width,
+    Vector2 pivot, Vector3 scale)
+```
+
+|Vertical Stretch|||
+|---|---|---|
+|Left|Center|Right|
+|anchorMin (0, 0)<br>anchorMax (0, 1)|anchorMin (0.5f, 0)<br>anchorMax (0.5f, 1)|anchorMin (1, 0)<br>anchorMax (1, 1)|
+<br>
+
+## 앵커 임의 지정하는 오브젝트에 사용
+```csharp
+public static RectTransform SetRectTransformByStretch(GameObject gameObject,
+    float lowerLeftX, float lowerLeftY, float upperRightX, float upperRightY,
+    float left, float right, float top, float bottom,
+    Vector2 pivot, float posX, float posY, Vector3 scale)
+```
+
+
+<br>
