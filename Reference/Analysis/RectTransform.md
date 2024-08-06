@@ -80,9 +80,14 @@ public static RectTransform SetRectTransformByStretchVer(GameObject gameObject,
 ```csharp
 public static RectTransform SetRectTransformByStretch(GameObject gameObject,
     float lowerLeftX, float lowerLeftY, float upperRightX, float upperRightY,
-    float left, float right, float top, float bottom,
+    float left, float right, float topH, float bottomW,
     Vector2 pivot, float posX, float posY, Vector3 scale)
 ```
-
-
-<br>
+- 앵커 설정시 가장 유사한 stretch에 따라서 horizontal / vertical 이 정해질 수 있음
+- topH, bottomW
+    - horizontal은 topH에 height, bottomW에 0 설정
+    - vertical은 bottomW에 width, topH에 0 설정
+- posX, posY
+    - horizontal은 posY 설정
+    - vertical은 posX 설정
+ 
