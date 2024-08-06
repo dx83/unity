@@ -85,9 +85,8 @@ public static RectTransform SetRectTransformByStretch(GameObject gameObject,
 ```
 - 앵커 설정시 가장 유사한 stretch에 따라서 horizontal / vertical 이 정해질 수 있음
 - topH, bottomW
-    - horizontal은 topH에 height, bottomW에 0 설정
-    - vertical은 bottomW에 width, topH에 0 설정
+    - horizontal : `topH에 height, bottomW에 0 설정` 또는 `topH에 0, bottomW에 -height 설정`
+    - vertical : `bottomW에 width, topH에 0 설정` 또는 `bottomW에 0, topH에 -width 설정`
 - posX, posY
-    - horizontal은 posY 설정
-    - vertical은 posX 설정
- 
+    - horizontal : posY 설정, posX에 0 설정
+    - vertical : posX 설정, posY에 0 설정
