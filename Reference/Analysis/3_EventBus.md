@@ -85,7 +85,7 @@ private void Start()
     // 이벤트 구독
     EventBus.Subscribe(new Event_Test(), Print);
 }
-
+// 이벤트로 등록할 함수
 private void Print(object sender, EventArgs arg)
 {
     // 해당 이벤트로 형변환해서 멤버변수 사용
@@ -99,7 +99,7 @@ private void Print(object sender, EventArgs arg)
 public void PrintMessage()
 {
     Event_Test ev = (Event_Test)EventBus.Data(typeof(Event_Test));
-    ev.Message = "Play Test";
-    EventBus.Publish(typeof(Event_Test));
+    ev.Message = "Play Test";             // 이벤트 함수에 전달할 정보 입력
+    EventBus.Publish(typeof(Event_Test)); // 해당 이벤트 함수 실행
 }
 ````
