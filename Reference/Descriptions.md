@@ -1,4 +1,5 @@
 SpriteAtlas : Addressables의 스프라이트아틀라스를 이용한 이미지 처리
+****
 
 - 외부 코드
   - SpriteSheetManager : 이미지 아틀라스 불러와서 각 이미지를 리스트에 넣어주는 코드
@@ -7,7 +8,8 @@ SpriteAtlas : Addressables의 스프라이트아틀라스를 이용한 이미지
 
 - 자가 코드
   - FileConverter : 게임 리소스에 해당되는 엑셀 파일을 난독화시켜 게임에 첨부할 데이타 파일 생성하는 기능
+  - EventBus, EventList : 이벤트버스, 이벤트를 관리하는 가장 간단한 패턴
+  - TabBase, TabController, TabItem : 탭 기능 구현
 
-
-
-
+****
+<br>
