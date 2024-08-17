@@ -31,6 +31,7 @@ public static RectTransform SetRectTransformByPreset(GameObject gameObject,
 <br>
 
 ## 스트레치가 적용되는 오브젝트에 사용
+- Stretch 모드는 해상도가 바뀌어도 자동으로 크기 조절이 되도록 설정된다.
 ||Stretch All|Horizontal Stretch|Vertical Stretch|
 |---|---|---|---|
 |offsetMin|Left, Bottom|Left, PosY|PosX, Bottom|
